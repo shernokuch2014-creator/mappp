@@ -1,0 +1,15 @@
+name: ShoxCraftYangiYil
+main: uz.shoxcraft.yangiyil.ShoxCraftYangiYil
+version: 1.0
+api-version: '1.20'
+author: ShoxCraft
+description: ShoxCraft uchun Yangi Yil dunyosini bitta komanda bilan quradi
+commands:
+  yangiyil:
+    description: Yangi Yil dunyosini quradi va sizni u yerga olib boradi
+    usage: /yangiyil
+    aliases: [newyear, yangiyilmap]
+permissions:
+  shoxcraft.yangiyil:
+    description: /yangiyil komandasidan foydalanish
+    default: op
